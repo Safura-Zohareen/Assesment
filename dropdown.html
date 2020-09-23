@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        country=()=>{
+            var name = document.getElementById("myList").value;
+            if(name == "America")
+            {
+                var countryName = ['California','Florida','Hawaii','Indiana'];
+                document.getElementById("display").innerHTML = countryName.join("<br>");
+            }
+            else if(name == "Australia")
+            {
+                var countryName = ['Northern Territory','South Australia', 'Western Australia', 'Victoria'];
+                document.getElementById("display").innerHTML = countryName.join("<br>");
+            }
+            else if(name == "India")
+            {
+                var countryName = ['Assam','Goa','Karnataka',' Meghalaya'];
+                document.getElementById("display").innerHTML = countryName.join("<br>");
+            }
+            else if(name == "Southkorea")
+            {
+                var countryName = ['Chungcheong','Gangwon','Jeju','Seoul'];
+                document.getElementById("display").innerHTML = countryName.join("<br>");
+            }
+            
+        }
+    </script>
+</head>
+<body>   
+        <div>
+    Country <select name="list" id="myList" onchange="country()">
+        <option selected="" value="Default">--Select--</option>
+        <option value="America">America</option>
+        <option value="Australia">Australia</option>
+        <option value="India">India</option>
+        <option value="Southkorea">South korea</option>
+    </select>
+    
+</div>
+<br>
+<div> <span id="display"></span></div>
+</body>
+</html>
