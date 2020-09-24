@@ -1,0 +1,32 @@
+[{
+        "name": "surabhi",
+        "city": "mysore",
+        "type": "ac",
+        "cuisine": ["indian"]
+    },
+    {
+        "name": "akshay palace",
+        "city": "bangalore",
+        "type": "nonac",
+        "cuisine": ["indian", "chineese", "northindian"]
+    },
+    {
+        "name": "Mythri",
+        "city": "chennai",
+        "type": "ac",
+        "cuisine": ["indian", "chineese"]
+    },
+    {
+        "name": "vishnupriya",
+        "city": "mysore",
+        "type": "nonac",
+        "cuisine": ["indian", "chineese"]
+    },
+    {
+        "name": "vishnupriya",
+        "city": "mysore",
+        "type": "nonac",
+        "cuisine": ["northindian"]
+    }
+
+]

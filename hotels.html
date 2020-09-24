@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    </script>
+</head>
+
+<body>
+    <form action="http://localhost:3000/listofhotels" method="GET">
+        <!-- //<a href="http://localhost:3000/listofhotels" id="print"> -->
+        Click To View Hotels: <input type="submit" name="listOfHotels" value="listofhotels"><br>
+    </form>
+
+    <br>
+    <form action="http://localhost:3000/hotelbycity" method="GET">
+        Enter City:<input type="text" name="city">
+        <!-- <a href="http://localhost:3000/hotelbycity"> -->
+        <input type="submit" name="hotelsByCity" value="hotelbycity"><br>
+    </form>
+
+    <br>
+
+    <form action="http://localhost:3000/hotelbytype" method="GET">
+        <select name="type">
+    <option selected="" value="default">---hotels by type---</option>
+    <option value="ac" >AC</option>
+    <option value="nonac" >Non-AC</option>
+    <input type="submit" value="search">
+    </select>
+    </form>
+
+    <br><br>
+    <form action="http://localhost:3000/hotelbycuisine" method="GET">
+        <select name="cuisine">
+        <option selected="" value="default">---hotels by cuisine---</option>
+        <option value="indian">Indian</option>
+        <option value="chineese">chineese</option>
+        <option value="northindian">North Indian</option>
+       
+        <input type="submit" value="search">
+        </select>
+    </form>
+
+    <div id="print"></div>
+
+</body>
+
+</html>
